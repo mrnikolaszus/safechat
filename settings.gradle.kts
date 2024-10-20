@@ -11,4 +11,7 @@ plugins {
 
 rootProject.name = "safechat"
 
+includeBuild("plugins")
 includeBuild("lessons")
+includeBuild("safechat-backend")
+
